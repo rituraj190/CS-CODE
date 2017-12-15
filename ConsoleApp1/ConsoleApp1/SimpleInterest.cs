@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    class SimpleInterest
+    public class SimpleInterest
     {
         float p ;
         int r = 12;
