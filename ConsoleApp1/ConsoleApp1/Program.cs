@@ -11,15 +11,15 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             SimpleInterest sp = new SimpleInterest();
-            float x = sp.getsi();
+            float x = sp.getsi(100, 12);
             Console.WriteLine("Rate of interest for one year will be : " + x);
 
-            float y = sp.getAmount();
-            Console.WriteLine("Total amount you would pay to bank : " + y);
+            //float y = sp.getAmount(100, 12);
+            //Console.WriteLine("Total amount you would pay to bank : " + y);
 
 
             compoundInterest coi = new compoundInterest();
-            float c = coi.ci(100,2);
+            float c = coi.ci(100, 2);
             Console.WriteLine("the compound interest on wil be : " + c);
 
 

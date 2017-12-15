@@ -35,11 +35,11 @@ namespace ConsoleApp1
             return si;
         }
 
-        public float getAmount()
-        {
-            float amount = p + getsi(); 
-            return amount;
-        }
+        //public float getAmount()
+        //{
+        //    float amount = p + getsi(float p, float t);
+        //    return amount;
+        //}
     }
 }
 
