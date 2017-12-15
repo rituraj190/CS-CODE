@@ -16,7 +16,11 @@ namespace ConsoleApp1
 
             float y = sp.getAmount();
             Console.WriteLine("Total amount you would pay to bank : " + y);
-            
+
+
+            compoundInterest coi = new compoundInterest();
+            float c = coi.ci(100,2);
+            Console.WriteLine("the compound interest on wil be : " + c);
 
 
         }

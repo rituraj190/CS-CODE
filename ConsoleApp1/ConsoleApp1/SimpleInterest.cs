@@ -8,27 +8,27 @@ namespace ConsoleApp1
 {
     class SimpleInterest
     {
-        int p ;
+        float p ;
         int r = 12;
         float t ;
 
         public SimpleInterest()
         {
-            Console.WriteLine("How much amount you want?");
-            string value = Console.ReadLine();
-            p = Convert.ToInt32(value);
+            //Console.WriteLine("How much amount you want?");
+            //string value = Console.ReadLine();
+            //p = Convert.ToInt32(value);
 
-            Console.WriteLine("For how long you need (months)");
-            string interest = Console.ReadLine();
-            float temp = Convert.ToInt32(interest);
+            //Console.WriteLine("For how long you need (months)");
+            //string interest = Console.ReadLine();
+            //float temp = Convert.ToInt32(interest);
                      
-                t = temp / 12;
+                //t = temp / 12;
                         
 
         }
 
 
-        public float getsi()
+        public float getsi(float p, float t)
         {
             
             float si = p * r * t / 100;
