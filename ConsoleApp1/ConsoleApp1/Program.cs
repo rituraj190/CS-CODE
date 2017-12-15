@@ -10,6 +10,15 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
+            SimpleInterest sp = new SimpleInterest();
+            float x = sp.getsi();
+            Console.WriteLine("Rate of interest for one year will be : " + x);
+
+            float y = sp.getAmount();
+            Console.WriteLine("Total amount you would pay to bank : " + y);
+            
+
+
         }
     }
 }
